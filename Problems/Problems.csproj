@@ -37,6 +37,7 @@
     <Compile Include="RomanToInteger.cs" />
     <Compile Include="SortedArraytoBinarySearch.cs" />
     <Compile Include="Helpers\TreeNode.cs" />
+    <Compile Include="PathSum112.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Helpers\" />
