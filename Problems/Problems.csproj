@@ -39,9 +39,11 @@
     <Compile Include="Helpers\TreeNode.cs" />
     <Compile Include="PathSum112.cs" />
     <Compile Include="BinaryTreeInorderTraversal94.cs" />
+    <Compile Include="118_PascalsTriangle.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Helpers\" />
+    <Folder Include="Test\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

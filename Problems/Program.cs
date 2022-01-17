@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace Problems
 {
@@ -7,7 +8,8 @@ namespace Problems
         public static void Main(string[] args)
         {
             //RomanToIntDriver();
-            SortedArrayToBinarySearchDriver();
+            //SortedArrayToBinarySearchDriver();
+            PascalsTriangleDriver();
         }
 
         public static void RomanToIntDriver()
@@ -28,5 +30,24 @@ namespace Problems
 
             Console.WriteLine($"Result: {result}");
         }
+
+        public static void PascalsTriangleDriver()
+        {
+            var input = 3;
+
+            var result = PascalsTriangle.GenerateWithArrays(input);
+
+            Console.WriteLine($"Result:");
+
+            foreach(var row in result)
+            {
+                foreach(var cell in row)
+                {
+                    Console.Write($"{cell},");
+                }
+                Console.WriteLine();
+            }
+        }
+
     }
 }
